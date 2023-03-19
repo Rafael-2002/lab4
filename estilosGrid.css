@@ -1,0 +1,615 @@
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    box-sizing: border-box;
+}
+
+
+
+@media (min-width:601px) {
+    .contentor>* {
+        background-color: rgb(218, 179, 128);
+        opacity: 0.6;
+        border: 1px solid black;
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    div.contentor {
+        height: 500px;
+        background-color: rgb(243, 170, 61);
+        display: grid;
+
+        grid-template-areas:
+            'header   nav    nav'
+            'main     main   aside'
+            'footer   footer footer';
+
+
+        gap: 10px;
+        padding: 30 px;
+        grid-template-columns: 20vw 3fr 2fr;
+        grid-template-rows: 15vh 1fr 100px;
+    }
+
+
+
+
+
+
+    .contentor2>* {
+        background-color: rgb(218, 179, 128);
+        opacity: 0.6;
+        border: 1px solid black;
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    div.contentor2 {
+        height: 500px;
+        background-color: rgb(243, 170, 61);
+        display: grid;
+
+        grid-template-areas:
+            'header   header    nav'
+            'main     aside   footer';
+
+
+        gap: 10px;
+        padding: 30 px;
+        grid-template-columns: 20vw 700px 2fr;
+        grid-template-rows: 15vh 325px;
+    }
+
+
+    .contentor3>* {
+        background-color: rgb(233, 220, 163);
+        opacity: 0.6;
+        border: 1px solid black;
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    div.contentor3 {
+        height: 820px;
+        background-color: rgb(212, 107, 107);
+        display: grid;
+
+        grid-template-areas:
+            'nav      header    header'
+            'nav     main      aside'
+            'footer   footer    footer';
+
+
+        gap: 10px;
+        padding: 30 px;
+        grid-template-columns: 20vw 700px 2fr;
+        grid-template-rows: 15vh 325px 300px;
+    }
+
+
+
+    .contentor4>* {
+        background-color: rgb(85, 165, 255);
+        opacity: 0.6;
+        border: 1px solid black;
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    div.contentor4 {
+        height: 610px;
+        background-color: rgb(136, 251, 255);
+        display: grid;
+
+        grid-template-areas:
+            'header      header    aside'
+            'footer      main      aside'
+            'nav         nav       nav';
+
+
+        gap: 10px;
+        padding: 30 px;
+        grid-template-columns: 30vw 500px 1fr;
+        grid-template-rows: 15vh 325px 100px;
+    }
+
+
+
+
+
+
+    .contentor5>* {
+        background-color: rgb(129, 248, 154);
+        opacity: 0.6;
+        border: 1px solid black;
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    div.contentor5 {
+        height: 610px;
+        background-image: url("imagens/milao.png");
+        background-size: cover;
+        display: grid;
+
+        grid-template-areas:
+            'header      footer    nav'
+            'header      main   main';
+
+
+        gap: 10px;
+        padding: 30 px;
+        grid-template-columns: 30vw 500px 1fr;
+        grid-template-rows: 15vh 325px 100px;
+    }
+
+
+
+
+
+    .contentor6>* {
+        background-color: rgb(129, 248, 154);
+        opacity: 0.6;
+        border: 1px solid black;
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    div.contentor6 {
+        height: 500px;
+        background-image: url("imagens/paris.png");
+        background-size: cover;
+        display: grid;
+
+        grid-template-areas:
+            'nav      header    header'
+            'main      main   footer';
+
+
+        gap: 10px;
+        padding: 30 px;
+        grid-template-columns: 30vw 500px 1fr;
+        grid-template-rows: 15vh 325px 100px;
+    }
+
+}
+
+
+@media(max-width:600px){
+
+    .contentor>* {
+        background-color: rgb(218, 179, 128);
+        opacity: 0.6;
+        border: 1px solid black;
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    div.contentor {
+        height: 500px;
+        background-color: rgb(243, 170, 61);
+        display: grid;
+
+        grid-template-areas:
+            'header'
+            'nav'
+            'main'
+            'aside'
+            'footer';
+
+
+        gap: 10px;
+        padding: 30 px;
+        grid-template-columns: 20vw 3fr 2fr;
+        grid-template-rows: 15vh 1fr 100px;
+    }
+
+
+
+
+
+
+    .contentor2>* {
+        background-color: rgb(218, 179, 128);
+        opacity: 0.6;
+        border: 1px solid black;
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    div.contentor2 {
+        height: 500px;
+        background-color: rgb(243, 170, 61);
+        display: grid;
+
+        grid-template-areas:
+        'header'
+        'nav'
+        'main'
+        'aside'
+        'footer';
+
+
+        gap: 10px;
+        padding: 30 px;
+        grid-template-columns: 20vw 700px 2fr;
+        grid-template-rows: 15vh 325px;
+    }
+
+
+    .contentor3>* {
+        background-color: rgb(233, 220, 163);
+        opacity: 0.6;
+        border: 1px solid black;
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    div.contentor3 {
+        height: 820px;
+        background-color: rgb(212, 107, 107);
+        display: grid;
+
+        grid-template-areas:
+            'nav'
+            'header'
+            'main'
+            'aside'
+            'footer';
+
+
+        gap: 10px;
+        padding: 30 px;
+        grid-template-columns: 20vw 700px 2fr;
+        grid-template-rows: 15vh 325px 300px;
+    }
+
+
+
+    .contentor4>* {
+        background-color: rgb(85, 165, 255);
+        opacity: 0.6;
+        border: 1px solid black;
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    div.contentor4 {
+        height: 610px;
+        background-color: rgb(136, 251, 255);
+        display: grid;
+
+        grid-template-areas:
+            'header'
+            'aside'
+            'footer'
+            'main'
+            'nav';
+
+
+        gap: 10px;
+        padding: 30 px;
+        grid-template-columns: 30vw 500px 1fr;
+        grid-template-rows: 15vh 325px 100px;
+    }
+
+
+
+
+
+
+    .contentor5>* {
+        background-color: rgb(129, 248, 154);
+        opacity: 0.6;
+        border: 1px solid black;
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    div.contentor5 {
+        height: 610px;
+        background-image: url("imagens/milao.png");
+        background-size: cover;
+        display: grid;
+
+        grid-template-areas:
+            'header'
+            'footer'
+            'nav'
+            'main';
+
+
+        gap: 10px;
+        padding: 30 px;
+        grid-template-columns: 30vw 500px 1fr;
+        grid-template-rows: 15vh 325px 100px;
+    }
+
+
+
+
+
+    .contentor6>* {
+        background-color: rgb(129, 248, 154);
+        opacity: 0.6;
+        border: 1px solid black;
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    div.contentor6 {
+        height: 500px;
+        background-image: url("imagens/paris.png");
+        background-size: cover;
+        display: grid;
+
+        grid-template-areas:
+            'nav'
+            'header'
+            'main'
+            'footer';
+
+
+        gap: 10px;
+        padding: 30 px;
+        grid-template-columns: 30vw 500px 1fr;
+        grid-template-rows: 15vh 325px 100px;
+    }
+
+
+
+}
